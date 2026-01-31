@@ -125,14 +125,18 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Circle.cpp" />
+    <ClCompile Include="IScene.cpp" />
     <ClCompile Include="IShape.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Rectangle.cpp" />
+    <ClCompile Include="StageScene.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Circle.h" />
+    <ClInclude Include="IScene.h" />
     <ClInclude Include="IShape.h" />
     <ClInclude Include="Rectangle.h" />
+    <ClInclude Include="StageScene.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
